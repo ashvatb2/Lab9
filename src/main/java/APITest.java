@@ -16,7 +16,7 @@ public class APITest {
 
     /** Subscription key. Replace with your API key. */
     private static final String SUBSCRIPTION_KEY =
-            "13hc77781f7e4b19b5fcdd72a8df7156";
+            "e6b87dbdc54e4e109b9908bc309a46fc";
 
     /**
      * Region to use.
@@ -57,8 +57,7 @@ public class APITest {
 
             // Request body.
             StringEntity reqEntity =
-                    new StringEntity("{\"url\":\"https://upload.wikimedia.org/wikipedia/commons/"
-                            + "1/12/Broadway_and_Times_Square_by_night.jpg\"}");
+                    new StringEntity("{\"url\":\"https://nickfalkner.files.wordpress.com/2015/06/mokolicabbi_insel.jpg\"}");
             request.setEntity(reqEntity);
 
             // Execute the REST API call and get the response entity.
